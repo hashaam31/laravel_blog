@@ -7,7 +7,6 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
         	@if($post)
-    
           <h2 class="section-heading">{{$post->title}}</h2>         
           <a href="#">
             <img class="img-fluid" src="{{url('storage/post_photo/'.$post->photo)}}" alt="{{$post->tilte}}">

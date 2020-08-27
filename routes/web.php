@@ -22,6 +22,7 @@ Route::prefix('page')->group(function()
 // POST URL
 Route::resource('post','PostController');
 Route::get('my-posts','PostController@myPosts');
+Route::get('postsresources','PostController@getPostReources');
 // Home URL
 Route::get('/home', 'HomeController@index')->name('home');
 // logout and other url

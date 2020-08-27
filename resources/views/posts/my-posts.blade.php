@@ -24,8 +24,8 @@
           </form>
            <a href="{{route('post.edit',$post->id)}}" class="btn btn-warning">Edit Post</a>
             <p class="post-subtitle">
-               {{$post->content}} 
-            </p>
+              {!! \Illuminate\Support\Str::words($post->content,10) !!}
+              </p>
           </a>
           <p class="post-meta">Posted by
             <a href="#">{{$post->users->name}}</a>

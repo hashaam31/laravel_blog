@@ -5,7 +5,7 @@
  */
 
 require('./bootstrap');
-
+//require('./contact_ajax');
 window.Vue = require('vue');
 
 /**
